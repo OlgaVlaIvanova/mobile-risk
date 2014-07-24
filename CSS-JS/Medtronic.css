@@ -1,0 +1,182 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E6E5E5;
+	color: black;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	height: 100%;
+	overflow: scroll;
+	width: 100%;
+}
+
+h1 {
+	background-color: #4D4C4C;
+	color: white;
+	font-size: 1.1em;
+	font-weight: normal;
+	padding: 15px 10px;
+	text-align: center;
+}	
+
+h2 {
+	background-color: #1D5684;
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 15px 10px;
+	text-align: center;
+}	
+
+ul.listing {
+	padding: 0 10px;	
+}
+
+ul.listing li {
+	background: url(../Images/arrow.gif) no-repeat 100% 50%;
+	border-bottom: 1px solid #9D9B9B;
+	padding: 20px 0px;
+}
+
+ul.listing li:last-child {
+	border-bottom: 0;
+}
+
+
+ul.listing div.emphasized {
+	color: red;
+}
+
+ul.listing div.risk {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.listing div.employee {
+	display: inline-block;
+}
+
+ul.listing div.name {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: normal;
+	vertical-align: middle;
+	width: 240px;
+}
+
+ul.listing div.employee div.name {
+	display: block;
+}
+
+ul.listing div.number {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 10px;
+	text-align: right;
+	vertical-align: middle;
+	width: 30px;
+}
+
+ul.listing div.risk div.number {
+	display: block;
+}
+
+ul.listing div.label {
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: normal;
+	line-height: 18px;
+	vertical-align: middle;
+}
+
+ul.listing div.function {
+	display: inline-block;
+	color: #7C7C7C;
+	font-size: 0.8em;
+	vertical-align: middle;
+	line-height: 18px;
+	width: 240px;
+}
+
+/*  //////////////////////////////      employee-details       /////////////////////////////////  */ 
+
+ul.employee-details {
+	padding: 0 10px;	
+}
+
+ul.employee-details li {
+	border-bottom: 1px solid #9D9B9B;
+	padding: 20px 0px;
+}
+
+ul.employee-details li:last-child {
+	border-bottom: 0;
+}
+
+ul.employee-details div.label {
+	display: inline-block;
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 10px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+ul.employee-details div.value {
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 10px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+
+div.overflow {
+margin-bottom: 30px;
+}
+
+
+
+/*  //////////////////////////////      footer       /////////////////////////////////  */ 
+
+footer.footer {
+	background-color: #1D5684;		
+	color: white;
+	font-size: 0.8em;
+	position: fixed; 
+	bottom: 0; 
+	width: 100%; 
+}
+
+.previous {
+	background: url(../Images/arrow-left.gif) no-repeat 10px 50% #1D5684;
+	padding: 10px 45px 10px 25px;
+	/* line-height: 12px; */
+}
+
+
+.next {
+	background: url(../Images/arrow-right.gif) no-repeat 70px 50% #1D5684;
+	float: right;
+	/* line-height: 12px; */
+	padding: 10px 25px 10px 45px;
+}
+
+
+/*  //////////////////////////////      a       /////////////////////////////////  */ 
+ 
+a {
+	cursor: pointer;
+	display: inline-block;
+}  
+
+a:link {
+	text-decoration: none;
+	
+}       
